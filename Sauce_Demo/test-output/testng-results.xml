@@ -1,33 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-19T22:19:44 IST" name="Default suite" finished-at="2025-03-19T22:19:50 IST" duration-ms="6692">
+  <suite started-at="2025-03-21T22:23:23 IST" name="Default suite" finished-at="2025-03-21T22:23:30 IST" duration-ms="6670">
     <groups>
     </groups>
-    <test started-at="2025-03-19T22:19:44 IST" name="Default test" finished-at="2025-03-19T22:19:50 IST" duration-ms="6692">
-      <class name="standard_user.Login">
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:standard_user.Login@3098cf3b]" started-at="2025-03-19T22:19:44 IST" name="browserLaunch" finished-at="2025-03-19T22:19:47 IST" duration-ms="3412" status="PASS">
+    <test started-at="2025-03-21T22:23:23 IST" name="Default test" finished-at="2025-03-21T22:23:30 IST" duration-ms="6670">
+      <class name="basicetest.ProductListingTest">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:basicetest.ProductListingTest@5ab9e72c]" started-at="2025-03-21T22:23:23 IST" name="browserLaunch" finished-at="2025-03-21T22:23:27 IST" duration-ms="3972" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="valideUser()[pri:1, instance:standard_user.Login@3098cf3b]" started-at="2025-03-19T22:19:47 IST" name="valideUser" description="verify the valide user" finished-at="2025-03-19T22:19:48 IST" duration-ms="1156" status="PASS">
+        <test-method is-config="true" signature="loginApp()[pri:0, instance:basicetest.ProductListingTest@5ab9e72c]" started-at="2025-03-21T22:23:27 IST" name="loginApp" finished-at="2025-03-21T22:23:28 IST" duration-ms="755" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- valideUser -->
-        <test-method signature="usernameToUppercase()[pri:2, instance:standard_user.Login@3098cf3b]" started-at="2025-03-19T22:19:48 IST" name="usernameToUppercase" description="Verify that uppercase username is not allowed" finished-at="2025-03-19T22:19:49 IST" duration-ms="1004" status="PASS">
+        </test-method> <!-- loginApp -->
+        <test-method is-config="true" signature="initializeWait()[pri:0, instance:basicetest.ProductListingTest@5ab9e72c]" started-at="2025-03-21T22:23:28 IST" name="initializeWait" finished-at="2025-03-21T22:23:28 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- usernameToUppercase -->
-        <test-method signature="lockedOutUser()[pri:3, instance:standard_user.Login@3098cf3b]" started-at="2025-03-19T22:19:49 IST" name="lockedOutUser" description="Verify that locked out user username is not allowed" finished-at="2025-03-19T22:19:50 IST" duration-ms="724" status="PASS">
+        </test-method> <!-- initializeWait -->
+        <test-method signature="TC_PL_001()[pri:1, instance:basicetest.ProductListingTest@5ab9e72c]" started-at="2025-03-21T22:23:28 IST" name="TC_PL_001" description="Verify the product list (inventory)" finished-at="2025-03-21T22:23:29 IST" duration-ms="804" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- lockedOutUser -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:standard_user.Login@3098cf3b]" started-at="2025-03-19T22:19:50 IST" name="closeBrowser" finished-at="2025-03-19T22:19:50 IST" duration-ms="294" status="PASS">
+        </test-method> <!-- TC_PL_001 -->
+        <test-method signature="addToCartAndVerify()[pri:2, instance:basicetest.ProductListingTest@5ab9e72c]" started-at="2025-03-21T22:23:29 IST" name="addToCartAndVerify" description="Add product to cart and verify" finished-at="2025-03-21T22:23:29 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartAndVerify -->
+        <test-method is-config="true" signature="logoutApp()[pri:0, instance:basicetest.ProductListingTest@5ab9e72c]" started-at="2025-03-21T22:23:29 IST" name="logoutApp" finished-at="2025-03-21T22:23:30 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:basicetest.ProductListingTest@5ab9e72c]" started-at="2025-03-21T22:23:30 IST" name="closeBrowser" finished-at="2025-03-21T22:23:30 IST" duration-ms="321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- standard_user.Login -->
+      </class> <!-- basicetest.ProductListingTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

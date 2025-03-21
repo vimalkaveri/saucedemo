@@ -1,4 +1,4 @@
-package standard_user;
+package basicetest;
 
 
 import org.testng.Assert;
@@ -6,10 +6,10 @@ import org.testng.annotations.*;
 
 import scenario.LoginModule;
 
-public class Login extends LoginModule{
+public class LoginTest extends LoginModule{
 	
 	@Test(priority=1,description="verify the valide user")
-	public void valideUser() {
+	public void TC001() {
 		username("standard_user");
 		password("secret_sauce");
 		login();
@@ -18,7 +18,7 @@ public class Login extends LoginModule{
 	}
 	
     @Test(priority = 2, description = "Verify that uppercase username is not allowed")
-    public void usernameToUppercase() {
+    public void TC002() {
         username("STANDARD_USER");
         password("secret_sauce");
         login();
@@ -31,7 +31,7 @@ public class Login extends LoginModule{
         Assert.assertEquals(actualErrorMessage, expectedErrorMessage, "Error message did not match!");
     }
     @Test(priority = 3, description = "Verify that locked out user is not allowed")
-    public void lockedOutUser() {
+    public void TC003() {
     	username("locked_out_user");
         password("secret_sauce");
         login();

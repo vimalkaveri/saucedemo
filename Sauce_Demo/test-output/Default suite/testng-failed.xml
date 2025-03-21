@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="standard_user.Login">
+      <class name="basicetest.ProductListingTest">
         <methods>
           <include name="browserLaunch"/>
-          <include name="lockedOutUser"/>
+          <include name="addToCartAndVerify"/>
+          <include name="loginApp"/>
+          <include name="logoutApp"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- standard_user.Login -->
+      </class> <!-- basicetest.ProductListingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
