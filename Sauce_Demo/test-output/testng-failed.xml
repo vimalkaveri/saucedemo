@@ -6,9 +6,10 @@
       <class name="basicetest.ProductListingTest">
         <methods>
           <include name="browserLaunch"/>
-          <include name="addToCartAndVerify"/>
           <include name="loginApp"/>
+          <include name="productContainer"/>
           <include name="logoutApp"/>
+          <include name="initializeWait"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- basicetest.ProductListingTest -->

@@ -1,41 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-21T22:23:23 IST" name="Default suite" finished-at="2025-03-21T22:23:30 IST" duration-ms="6670">
+  <suite started-at="2025-03-28T22:30:50 IST" name="Default suite" finished-at="2025-03-28T22:30:58 IST" duration-ms="7373">
     <groups>
     </groups>
-    <test started-at="2025-03-21T22:23:23 IST" name="Default test" finished-at="2025-03-21T22:23:30 IST" duration-ms="6670">
-      <class name="basicetest.ProductListingTest">
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:basicetest.ProductListingTest@5ab9e72c]" started-at="2025-03-21T22:23:23 IST" name="browserLaunch" finished-at="2025-03-21T22:23:27 IST" duration-ms="3972" status="PASS">
+    <test started-at="2025-03-28T22:30:50 IST" name="Default test" finished-at="2025-03-28T22:30:58 IST" duration-ms="7373">
+      <class name="basicetest.CardTest">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:basicetest.CardTest@343570b7]" started-at="2025-03-28T22:30:50 IST" name="browserLaunch" finished-at="2025-03-28T22:30:56 IST" duration-ms="5667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method is-config="true" signature="loginApp()[pri:0, instance:basicetest.ProductListingTest@5ab9e72c]" started-at="2025-03-21T22:23:27 IST" name="loginApp" finished-at="2025-03-21T22:23:28 IST" duration-ms="755" status="PASS">
+        <test-method is-config="true" signature="loginApp()[pri:0, instance:basicetest.CardTest@343570b7]" started-at="2025-03-28T22:30:56 IST" name="loginApp" finished-at="2025-03-28T22:30:56 IST" duration-ms="568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method is-config="true" signature="initializeWait()[pri:0, instance:basicetest.ProductListingTest@5ab9e72c]" started-at="2025-03-21T22:23:28 IST" name="initializeWait" finished-at="2025-03-21T22:23:28 IST" duration-ms="6" status="PASS">
+        <test-method signature="TC_AC_001()[pri:1, instance:basicetest.CardTest@343570b7]" started-at="2025-03-28T22:30:57 IST" name="TC_AC_001" description="to verfiy Add Card button " finished-at="2025-03-28T22:30:57 IST" duration-ms="393" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeWait -->
-        <test-method signature="TC_PL_001()[pri:1, instance:basicetest.ProductListingTest@5ab9e72c]" started-at="2025-03-21T22:23:28 IST" name="TC_PL_001" description="Verify the product list (inventory)" finished-at="2025-03-21T22:23:29 IST" duration-ms="804" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_PL_001 -->
-        <test-method signature="addToCartAndVerify()[pri:2, instance:basicetest.ProductListingTest@5ab9e72c]" started-at="2025-03-21T22:23:29 IST" name="addToCartAndVerify" description="Add product to cart and verify" finished-at="2025-03-21T22:23:29 IST" duration-ms="414" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCartAndVerify -->
-        <test-method is-config="true" signature="logoutApp()[pri:0, instance:basicetest.ProductListingTest@5ab9e72c]" started-at="2025-03-21T22:23:29 IST" name="logoutApp" finished-at="2025-03-21T22:23:30 IST" duration-ms="317" status="PASS">
+        </test-method> <!-- TC_AC_001 -->
+        <test-method is-config="true" signature="logoutApp()[pri:0, instance:basicetest.CardTest@343570b7]" started-at="2025-03-28T22:30:57 IST" name="logoutApp" finished-at="2025-03-28T22:30:57 IST" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:basicetest.ProductListingTest@5ab9e72c]" started-at="2025-03-21T22:23:30 IST" name="closeBrowser" finished-at="2025-03-21T22:23:30 IST" duration-ms="321" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:basicetest.CardTest@343570b7]" started-at="2025-03-28T22:30:57 IST" name="closeBrowser" finished-at="2025-03-28T22:30:58 IST" duration-ms="344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- basicetest.ProductListingTest -->
+      </class> <!-- basicetest.CardTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
